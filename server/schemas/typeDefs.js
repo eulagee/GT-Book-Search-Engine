@@ -1,38 +1,42 @@
-// BRING IN GRAPHQL FOR APOLLO-SERVER-EXPRESS
 const { gql } = require('apollo-server-express');
 
-const typeDefs = gql `
+const typeDefs = gql`
+
+  type Query {
+    #context functionality in placce and decode its data, we can use a query that will always find aand return user's data
+    me: User
+  }
+
   type User {
     _id: ID!
     username: String!
-    email: String!
     password: String!
+    email: String!
     bookCount: Int
-    savedBooks: [Book]!
+    savedBooks: [Book]
   }
+
   type Book {
-    bookId: String
-    authors: [String]
-    description: String
-    title: String
-    image: String
-    link: String
+    _id : ID!
+    bookId: String!
+    authors: String!
+    description: String!
+    title: String!
+    image: String!
+    link: String!
   }
+
   type Auth {
     token: ID!
     user: User
   }
-  type Query {
-    # Because we have the context functionality in place to check a JWT and decode its data, we can use a query that will always find and return the logged in user's data
-    me: User
-  }
+
   type Mutation {
-    addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
-    saveBook(bookId: String!, authors: [String], description: String, image: String, link: String, title: String!): User
+    addUser(username: String!, email: String!, password: String!): Auth
+    saveBook(authors: String!, bookId: String!, description: String!, link: String!, image: String!, title: String!,): User
     removeBook(bookId: String!): User
   }
 `;
 
-// EXPORT TYPEDEFS FOR USE IN APP
 module.exports = typeDefs;

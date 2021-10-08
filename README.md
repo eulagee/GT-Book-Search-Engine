@@ -63,4 +63,35 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 [../client/build/signupPage.png]
 
-[../client/build/Savedbooks.png]
+# Usage
+
+This application allows to search for the books, save books to your saved book list and remove books from the saved book list.
+
+# License 
+This project is licensed under the MIT.
+
+# Technology Used
+
+- HTML
+- CSS
+- JS
+- Node.Js
+- express
+- moongoose
+- Apollo sever
+- MERN
+- GraphQl
+- Bootsrap
+
+## Links
+
+* Repo for this application
+* The deployed application
+
+# Questions
+
+For any question, please send me and eMail or check out my Github.
+
+* email: <eulaliegee@gmail.com>
+
+* github: <https://github.com/eulagee>

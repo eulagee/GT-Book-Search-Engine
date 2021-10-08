@@ -60,8 +60,12 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 * Question
 
 # Deployed Application
+![Screen Shot 2021-10-07 at 9 01 47 PM](https://user-images.githubusercontent.com/45496074/136612097-3a6a65fd-79a1-48c9-922c-21a063e75628.png)
+![Screen Shot 2021-10-07 at 9 02 48 PM](https://user-images.githubusercontent.com/45496074/136612112-229e25fd-2054-4b8b-9c6a-3a94ca46403c.png)
+![Signup Page](https://user-images.githubusercontent.com/45496074/136612124-30d590c4-7036-47b8-80ab-20ddaf2032e5.png)
 
-[../client/build/signupPage.png]
+
+
 
 # Usage
 

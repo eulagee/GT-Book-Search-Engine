@@ -60,6 +60,7 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 * Question
 
 # Deployed Application
-![deployedImages](/client/build/signupPage.png)
 
-![deployedImages](/client/build/Savedbooks.png)
+[../client/build/signupPage.png]
+
+[../client/build/Savedbooks.png]

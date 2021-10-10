@@ -89,8 +89,8 @@ This project is licensed under the MIT.
 
 ## Links
 
-* Repo for this application
-* The deployed application
+* Repo for this application https://github.com/eulagee/GT-Book-Search-Engine
+* The deployed application https://booksearchengine01.herokuapp.com/
 
 # Questions
 
